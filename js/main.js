@@ -53,8 +53,8 @@ $(function(){
 		slidesToScroll: 1,
 		prevArrow: '<img class="slider-arrow slider-arrow--left" src="images/header/header-link-arrow-left-prev.svg" alt="" title="Previous Beach">',
 		nextArrow: '<img class="slider-arrow slider-arrow--right" src="images/header/header-link-arrow-right-next.svg" alt="" title="Next Beach">',
-//		autoplay: true,
-//		autoplaySpeed: 5000,
+		autoplay: true,
+		autoplaySpeed: 5000,
 		infinite: true,
 //		focusOnSelect: true,
 		asNavFor: ".surf-map__slider", 
@@ -129,8 +129,8 @@ $(".sleep-slider").slick({
 $(".shop-slider").slick({
 	prevArrow: '<img class="slider-arrow slider-arrow--left" src="images/header/header-link-arrow-left-prev.svg" alt="" title="Previous Board">',
 	nextArrow: '<img class="slider-arrow slider-arrow--right" src="images/header/header-link-arrow-right-next.svg" alt="" title="Next Board">',
-//	autoplay: true,
-//	autoplaySpeed: 5000,
+	autoplay: true,
+	autoplaySpeed: 5000,
 	infinite: true,
 	fade: true,
 });
